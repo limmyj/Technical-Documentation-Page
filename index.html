@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technica Documentation Page</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>Python Programming</header>
+    <ul>
+      <li><a href="#introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#syntax_basics" class="nav-link">Syntax Basics</a></li>
+      <li><a href="#data_types" class="nav-link">Data Types</a></li>
+      <li><a href="#control_structures" class="nav-link">Control Structures</a></li>
+      <li><a href="#functions" class="nav-link">Functions</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <article>
+      <p>Python is a popular programming language known for its simplicity and versatility. It is widely used in web development, data science, automation, and more.</p>
+      <p>Python's syntax is designed to be easy to read and understand, which makes it an excellent choice for beginners and professionals alike.</p>
+      <ul>
+        <li>Python was created by Guido van Rossum and first released in 1991.</li>
+        <li>It is an interpreted, high-level, and general-purpose programming language.</li>
+        <li>Python emphasizes code readability with the use of significant whitespace.</li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="syntax_basics">
+    <header>Syntax Basics</header>
+    <article>
+      <p>Python syntax is designed to be intuitive and its code easy to read. Below is an example of a simple Python script:</p>
+      <code>print("Hello, World!")</code>
+      <p>Indentation is used to define code blocks in Python. For example:</p>
+      <code>if 5 > 2: print("Five is greater than two")</code>
+      <p>Python does not use curly braces ({}) to define code blocks like many other languages. Instead, it relies on indentation levels to determine the block structure.</p>
+    </article>
+  </section>
+  <section class="main-section" id="data_types">
+    <header>Data Types</header>
+    <article>
+      <p>Python supports various data types, including:</p>
+      <ul>
+        <li>Numbers: int, float, complex</li>
+        <li>Strings: str</li>
+        <li>Boolean: bool</li>
+        <li>Lists: list</li>
+        <li>Dictionaries: dict</li>
+        <li>Tuples: tuple</li>
+      </ul>
+      <p>Below is an example of defining different data types in Python:</p>
+      <code>
+        my_string = "Hello"
+        my_int = 10
+        my_float = 20.5
+        my_list = [1, 2, 3]
+      </code>
+      <p>Python's dynamic typing allows you to change the data type of a variable as the program runs.</p>
+    </article>
+  </section> 
+  <section class="main-section" id="control_structures">
+    <header>Control Structures</header>
+    <article>
+      <p>Python includes several control structures for decision-making and looping, such as:</p>
+      <ul>
+        <li>If statements</li>
+        <li>For loops</li>
+        <li>While loops</li>
+      </ul>
+      <p>Example of an if-else statement in Python:</p>
+      <code>
+        age = 18
+        if age >= 18:
+        print("You are an adult.")
+        else:
+        print("You are still young.")
+      </code>
+    </article>
+  </section>
+  <section class="main-section" id="functions">
+    <header>Functions</header>
+    <article>
+      <p>Functions in Python are defined using the <code>def</code> keyword. Functions can take arguments and return values.</p>
+      <p>Here's an example of a simple Python function:</p>
+      <code>
+        def greet(name):
+        return f"Hello, {name}!"
+        print(greet("Alice"))
+      </code>
+      <p>Functions help organize code into reusable blocks and improve code readability.</p>
+    </article>
+  </section>
+</main>
+</body>
+</html>
