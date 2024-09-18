@@ -2,7 +2,8 @@
 
 `CERTIFICATION PROJECT`
 
-This is one of the required projects to earn the certification.
+- This is one of the required projects to earn the certification.
+- For this project, you will build a technical documentation page to serve as instruction of reference for a topic.
 
 ## Objective
 Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
