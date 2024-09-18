@@ -40,4 +40,4 @@ Build an app that is functionally similar to https://technical-documentation-pag
 15. Your technical documentation should use at least one media query
 
 ## Note
-Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS.
+Be sure to add ```<link rel="stylesheet" href="styles.css">``` in your HTML to link your stylesheet and apply your CSS
